@@ -1,0 +1,21 @@
+\beamer@endinputifotherversion {3.33pt}
+\beamer@sectionintoc {1}{Face Recognition Overview}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Issues}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Algorithm}{4}{0}{1}
+\beamer@sectionintoc {2}{Face Extraction}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Viola-Jones}{5}{0}{2}
+\beamer@sectionintoc {3}{Feature Extraction}{6}{0}{3}
+\beamer@subsectionintoc {3}{1}{Dense vs Interest Points}{6}{0}{3}
+\beamer@sectionintoc {4}{Feature Description}{7}{0}{4}
+\beamer@subsectionintoc {4}{1}{SIFT vs ORB}{7}{0}{4}
+\par \vfil \penalty -\@M 
+\beamer@sectionintoc {5}{Vector Representation}{8}{0}{5}
+\beamer@subsectionintoc {5}{1}{Bag of Visual Words (BoVW)}{8}{0}{5}
+\beamer@subsectionintoc {5}{2}{Fisher Vectors}{9}{0}{5}
+\beamer@sectionintoc {6}{Mobile Face Recognition}{10}{0}{6}
+\beamer@subsectionintoc {6}{1}{Mobile Specific Issues}{10}{0}{6}
+\beamer@subsectionintoc {6}{2}{Algorithms}{12}{0}{6}
+\beamer@subsectionintoc {6}{3}{Algorithm Comparison}{15}{0}{6}
+\beamer@sectionintoc {7}{Demo}{16}{0}{7}
+\beamer@subsectionintoc {7}{1}{Add Person}{16}{0}{7}
+\beamer@subsectionintoc {7}{2}{Recognise Person}{17}{0}{7}

@@ -1,0 +1,17 @@
+\frametitle{Third Face Recognition Algorithm}
+% The block diagram code is probably more verbose than necessary
+\begin{tikzpicture}[auto, node distance=2cm,>=latex']
+    % We start by placing the blocks
+    \node [block, name=face, pin={[pinstyle]above:Image}] {Viola-Jones};
+    \node [block, below right of=face, node distance=3cm] (feature) {Dense};
+    \node [block, below right of=feature, node distance=3cm] (desc) {ORB};
+    \node [block, above right of=desc, node distance=3cm] (vector) {Fisher Vectors};
+    \node [block, above right of=vector, node distance=3cm] (matching) {KNN};
+    \node [output, above of=matching, node distance=1.5cm] (output) {};
+    % We draw an edge between the face and feature block
+    \draw [->] (face) -- node[name=u] {$Face$} (feature);
+    \draw [<-] (desc) -- node[name=v] {$Features$} (feature);
+    \draw [<-] (vector) -- node[name=w] {$Descriptions$} (desc);
+    \draw [->] (vector) -- node[name=x] {$Vectors$} (matching);
+    \draw [->] (matching) -- node[name=y] {$Recognised Face$} (output);
+\end{tikzpicture}

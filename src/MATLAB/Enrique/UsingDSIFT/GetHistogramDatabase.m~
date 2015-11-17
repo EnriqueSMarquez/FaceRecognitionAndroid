@@ -1,0 +1,8 @@
+function [databaseHistogram] = GetHistogramDatabase(data,clusters)
+
+[~,numberOfClusters] = size(clusters); 
+[~,sizeOfData] = size(data);
+
+for i=1:sizeOfData
+
+end
